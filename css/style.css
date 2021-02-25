@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#tituloGeral {
+    display: flex;
+    background-image: url("../img/bg-catalogo.webp");
+    
+    justify-content: center;
+    padding: 15px;
+    margin: 0; 
+    font-family: Stick; 
+}
+
+nav{
+    display: flex;
+    background-color: khaki;
+    border: 10px inset blue;
+    
+    justify-content: space-around;
+    padding: 15px;
+}
+
+nav a{
+    color: black;
+    font-size: 2rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform:uppercase;
+    
+}
+
+.banners {
+    transition: 3s;
+    width: auto;
+    height: 400px;
+    background-image: url(../img/banner-loja.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banners:hover {
+    transition: 3s;
+    width: auto;
+    height: 400px;
+    background-image: url(../img/banner-loja2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banners:active {
+    transition: 3s;
+    width: auto;
+    height: 400px;
+    background-image: url(../img/banner-loja3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banners img {
+    width: 1900px;
+    height: 400px;
+}
+
+
+
+
+.catalogo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    
+    
+}
+
+.produto{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid white;
+    margin: 15px;
+    padding: 10px;
+}
+
+.produto:hover{
+    transition: 0.4s;
+    border: 2px inset black;
+    border-radius: 3%;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.produto img {  
+    
+    border: 10px double gold ;
+    padding: 20px;
+    margin: 20px;
+    height: 175px;
+    width: 300px;
+}   
+
+.produto input{
+    width: 50px;
+    height: 20px;
+    padding: 3px;
+    margin: -10px 0 15px 0;
+}
+
+.produto button{
+    background-color: darkgreen;
+    color: white;
+    border-radius: 10%;
+    height: 40px;
+    width: 150px;
+}
+
+.produto button:hover{
+    background-color: rgb(7, 250, 7);
+    border: 2px inset black;
+    border-radius: 10%;
+    transition: 1.2s;
+
+}
+
+.produto button:active{
+    background-color: rgb(255, 58, 8);
+    border: 2px inset black;
+    border-radius: 10%;
+
+}
+
+footer{
+    font-size: 3rem;
+    background-image: url("../img/bg-catalogo.webp");
+    padding: 150px;
+    text-shadow: red 2px 2px 5px ;
+    color: rgb(0, 16, 65);
+}
+
+
