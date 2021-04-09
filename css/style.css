@@ -15,7 +15,8 @@ body{
     font-family: Stick; 
 }
 
-nav{
+
+nav {
     display: flex;
     background-color: khaki;
     border: 10px inset blue;
@@ -23,6 +24,7 @@ nav{
     justify-content: space-around;
     padding: 15px;
     flex-wrap: wrap;
+
 }
 
 nav a{
@@ -32,6 +34,30 @@ nav a{
     text-decoration: none;
     text-transform:uppercase;
     
+}
+
+div#logo {
+    position: absolute;
+    margin-left: -70px;
+    margin-top: -45px;
+    width: 250px;
+    height: 130px;
+    background-image: url(../img/logo-fort.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 7s;
+}
+
+div#logo:hover {
+    position: absolute;
+    margin-left: -70px;
+    margin-top: -45px;
+    width: 250px;
+    height: 130px;
+    background-image: url(../img/logo-fort2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 3s;
 }
 
 .banners {
@@ -73,6 +99,7 @@ nav a{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
 
     
     
